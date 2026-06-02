@@ -1,1 +1,33 @@
+# Compiler output
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+*.p_hi
+*.p_o
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Compiled binaries (GHC produces an extensionless executable next to Main.hs)
+main
+
+# Stack
+.stack-work/
+stack.yaml.lock
+
+# Cabal
+dist/
+dist-newstyle/
+.cabal-sandbox/
+cabal.sandbox.config
+.ghc.environment.*
+*.chi
+*.chs.h
+
+# HLS / editor
+.hie/
+
+# Old Rust artifacts
 /target
